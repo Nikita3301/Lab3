@@ -52,7 +52,6 @@ namespace Lab31
                 if (k1 != 0) Console.WriteLine("Кiлькiсть квадратних дужок не спiвпадає.");
             }
             else{ Console.WriteLine("Квадратних дужок немає.");}
-            Console.WriteLine(charArr.Length);
             if (m!=0 & k == 0)
             {
                 for (int i = 0; i < charArr.Length; i++)
