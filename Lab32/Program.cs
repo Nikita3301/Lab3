@@ -10,7 +10,7 @@ namespace Lab32
             StreamWriter g = new StreamWriter("C:\\Users\\s\\RiderProjects\\Lab32\\g.txt");
             StreamReader f = new StreamReader("C:\\Users\\s\\RiderProjects\\Lab32\\f.txt");
             string str;
-            Console.WriteLine("Парнi числа з файлу:");
+            Console.WriteLine("Парнi числа з файлу:" );
             while ((str = f.ReadLine()) != null)
             {
                 int number =Convert.ToInt32(str);
