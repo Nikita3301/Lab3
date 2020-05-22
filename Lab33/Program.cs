@@ -20,7 +20,7 @@ namespace Lab33
                 }
             }
             string[] words = str.Split(' ');
-            Console.WriteLine("\nСлова з парною кiлькiстю лiтер:");
+            Console.WriteLine("\nСлова з парною кiлькiстю лiтер:" );
             foreach (string word in words)
             {
                 char[] charArr = word.ToCharArray();
