@@ -14,7 +14,7 @@ namespace Lab31
                 str = Console.ReadLine();
             }
             char[] charArr = str.ToCharArray();
-            for (int i = 0; i < charArr.Length; i++)
+            for (int i = 0; i < charArr.Length ; i++)
             {
                 if (charArr[i] == '(')
                 {
